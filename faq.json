@@ -1,0 +1,242 @@
+{
+  "intents": [
+    {
+      "tag": "vpn",
+      "patterns": ["vpn bağlanmıyor", "vpn bağlantı sorunu", "vpn çalışmıyor", "bağlanamıyorum vpn", "vpn açılmıyor", "vpn kesiliyor","vpn kopuyor","vpn bağlnmıyo","vpn bağlanmıyo" ],
+      "responses": [
+        "VPN bağlantı sorunları için lütfen şunları kontrol edin:\n1. İnternet bağlantınızın olduğundan emin olun.\n2. VPN programında kullanıcı adı ve şifrenizi doğru girdiğinizden emin olun.\n3. VPN programını kapatıp yeniden açmayı veya bilgisayarınızı yeniden başlatmayı deneyin.\nSorun devam ederse, şifrenizin süresi dolmuş olabilir. Lütfen IT ile iletişime geçin."
+      ]
+    },
+    {
+      "tag": "internet",
+      "patterns": ["internet yok", "bağlantı yok", "wifi çalışmıyor", "modem bağlanmıyor", "internet kopuyor", "wifi kesiliyor"],
+      "responses": [
+        "İnternet bağlantısı için:\n1. Wi-Fi/Ethernet bağlantınızın aktif olduğunu doğrulayın.\n2. Modem/AP ışıklarını ve kapsama alanını kontrol edin.\n3. Gerekirse cihazı yeniden başlatın.\nSorun sürerse IT ile iletişime geçin (genel kesinti olabilir)."
+      ]
+    },
+    {
+      "tag": "outlook_password",
+      "patterns": ["outlook şifremi unuttum", "outlook açılmıyor", "outlook şifremi sıfırlamak istiyorum", "outlook giriş yapamıyorum", "outlook şifre değiştir", "outlook açılmıyo"],
+      "responses": [
+        "Outlook şifre işlemleri için:\n1. IT Destek portalına gidin ve 'Şifre Yenileme' seçeneğini seçin.\n2. Gelen adımları takip ederek yeni şifre oluşturun.\n3. Şifre yenileme sonrası tekrar giriş yapmayı deneyin."
+      ]
+    },
+    {
+      "tag": "sap",
+      "patterns": ["sap giremiyorum", "sap çalışmıyor", "sap şifremi unuttum", "sap login hatası", "sap giriş sorunu"],
+      "responses": [
+        "SAP giriş sorunları için:\n1. Kullanıcı adınızı ve şifrenizi doğru girdiğinizden emin olun.\n2. SAP Client sürümünüz güncel olmalı.\n3. Şifreniz kilitlendiyse IT destek ekibine bildirin."
+      ]
+    },
+    {
+      "tag": "printer",
+      "patterns": ["yazıcı çalışmıyor", "yazıcı çıkarmıyor", "yazıcı bozuldu", "printer print etmiyor", "yazıcıdan çıktı alamıyorum"],
+      "responses": [
+        "Yazıcı sorunları için:\n1. Yazıcının açık olduğundan ve kablo/bağlantıların doğru takıldığından emin olun.\n2. Varsayılan yazıcı ayarlarını kontrol edin.\n3. Yazıcı kuyruğunu temizleyip tekrar deneyin.\nSorun sürerse IT destek ekibine başvurun."
+      ]
+    },
+    {
+      "tag": "onedrive",
+      "patterns": ["onedrive senkronize etmiyor", "onedrive çalışmıyor", "onedrive açılmıyor", "onedrive dosya yüklemiyor"],
+      "responses": [
+        "OneDrive sorunları için:\n1. Hesabınızla giriş yaptığınızdan emin olun.\n2. OneDrive istemcisini yeniden başlatın.\n3. Senkronizasyonu durdurup tekrar başlatın.\nSorun devam ederse IT ile iletişime geçin."
+      ]
+    },
+    {
+      "tag": "teams",
+      "patterns": ["teams açılmıyor", "teams toplantıya giremiyorum", "teams mikrofon çalışmıyor", "teams kamera çalışmıyor", "teams ses yok"],
+      "responses": [
+        "Teams sorunları için:\n1. Uygulamayı kapatıp yeniden açın.\n2. Ses ve kamera ayarlarını kontrol edin.\n3. Gerekirse Teams uygulamasını yeniden yükleyin."
+      ]
+    },
+    {
+      "tag": "slow_pc",
+      "patterns": ["bilgisayar yavaş", "pc kasıyor", "bilgisayar donuyor", "pc çok yavaş", "bilgisayar kilitleniyor"],
+      "responses": [
+        "Bilgisayarınızın yavaşlaması durumunda şunları yapın:\n1. Cihazınızı yeniden başlatın.\n2. Arka planda çalışan gereksiz uygulamaları kapatın.\n3. Disk Temizleme aracını çalıştırın.\n4. Sorun sürerse IT ekibine donanım kontrolü için başvurun."
+      ]
+    },
+    {
+      "tag": "software_install",
+      "patterns": ["program kurmak istiyorum", "yeni yazılım yükleme", "uygulama yüklenmiyor", "yeni program talebi"],
+      "responses": [
+        "Yazılım yükleme işlemleri için IT Destek portalından talep açın. Kurulum için gerekli izinler IT tarafından sağlanacaktır."
+      ]
+    },
+    {
+      "tag": "access",
+      "patterns": ["erişim yok", "yetkim yok", "paylaşıma giremiyorum", "dosya açılmıyor", "klasöre erişemiyorum"],
+      "responses": [
+        "Erişim/Yetki sorunları için:\n1. İlgili dosya/klasör paylaşım izinlerini kontrol edin.\n2. Yetki talebinizi IT portalından iletin.\n3. Sorun devam ederse yöneticinizden onay almanız gerekebilir."
+      ]
+    },
+    {
+      "tag": "mail",
+      "patterns": ["mail gelmiyor", "mail gitmiyor", "outlook gönder/al hata", "outlook mailler gelmiyor"],
+      "responses": [
+        "Mail sorunları için:\n1. Spam klasörünü kontrol edin.\n2. İnternet bağlantınızı doğrulayın.\n3. Outlook’u yeniden başlatın.\n\n👉 Eğer sorun devam ederse, lütfen talebinizi buraya yazın."
+      ]
+    },
+    {
+      "tag": "yazilim_talebi",
+      "patterns": ["yeni yazılım istiyorum", "program kurabilir misiniz", "yeni uygulama lazım"],
+      "responses": [
+        "Yeni yazılım talepleriniz için onay gerekmektedir. Lütfen IT Destek portalından talep açabilirsiniz. Eğer bu yazılımı buradan talep etmek istiyorsanız talebinizi buraya yazın. Eğer başka sorunuz varsa 'hayır' yazabilirsiniz."
+      ]
+    },
+    {
+      "tag": "donanim_talebi",
+      "patterns": ["yeni klavye lazım", "fare bozuldu", "monitör istiyorum"],
+      "responses": [
+        "Donanım talepleri için yöneticinizden onay alınmalıdır. Lütfen IT Destek portalından talep açabilirsiniz. Eğer bu talebi buradan iletmek istiyorsanız talebinizi buraya yazın. Eğer başka sorunuz varsa 'hayır' yazabilirsiniz."
+      ]
+    },
+    {
+      "tag": "selam",
+      "patterns": ["selam", "merhaba", "iyi günler", "günaydın", "iyi akşamlar"],
+      "responses": [
+        "Merhaba 👋, size nasıl yardımcı olabilirim?",
+        "Selam! Bugün nasılsınız? 😊",
+        "Hoş geldiniz! Ne hakkında konuşmak istersiniz?"
+      ]
+    },
+    {
+      "tag": "halhatir",
+      "patterns": ["naber", "nasılsın", "nasıl gidiyor", "iyisin umarım"],
+      "responses": [
+        "Ben bir yazılımım, her zaman iyiyim 😎 Ama size yardımcı olunca daha da mutlu oluyorum.",
+        "İyiyim, teşekkürler! Siz nasılsınız?",
+        "Ben gayet iyiyim 👍. Sizin için ne yapabilirim?"
+      ]
+    },
+    {
+      "tag": "tesekkur",
+      "patterns": ["teşekkürler", "sağ ol", "çok teşekkür", "tşk", "eyvallah"],
+      "responses": [
+        "Rica ederim 🙏, başka bir konuda yardımcı olabilir miyim?",
+        "Ne demek, her zaman buradayım!",
+        "Sorun değil, memnuniyetle."
+      ]
+    },
+    {
+      "tag": "vedalaşma",
+      "patterns": ["görüşürüz", "hoşça kal", "bay bay", "bye", "iyi geceler"],
+      "responses": [
+        "Görüşmek üzere 👋",
+        "Hoşça kalın, kendinize iyi bakın 😊",
+        "Bay bay! Her zaman buradayım."
+      ]
+    },
+    {
+      "tag": "kim",
+      "patterns": ["kimsin", "sen nesin", "sen kimsin", "adın ne", "sen ne yapıyorsun"],
+      "responses": [
+        "Ben Çimsa Akıllı Asistan 🤖. IT ile ilgili sorularınıza yardımcı olmak için buradayım.",
+        "Ben bir yapay zeka destekli asistanım. Size destek olmak için buradayım!",
+        "Benim adım Çimsa Asistan. Size nasıl yardımcı olabilirim?"
+      ]
+    },
+    {
+      "tag": "saat",
+      "patterns": ["saat kaç", "şu an saat kaç", "saat söyler misin"],
+      "responses": [
+        "⌚ Şu anki saati cihazınızın sağ alt köşesinden görebilirsiniz.",
+        "Saat bilgisi için Windows’un sağ alt köşesindeki göstergeden bakabilirsiniz."
+      ]
+    },
+    {
+      "tag": "hava",
+      "patterns": ["hava nasıl", "bugün hava nasıl", "hava durumu", "dışarısı nasıl"],
+      "responses": [
+        "Benim elimde anlık hava durumu yok 🌦️ ama internetten kolayca öğrenebilirsiniz.",
+        "Hava durumunu kontrol etmek için tarayıcıdan 'hava durumu' yazabilirsiniz."
+      ]
+    },
+    {
+      "tag": "yardim",
+      "patterns": ["yardım", "nasıl kullanılır", "ne yapabilirsin", "bana yardımcı ol"],
+      "responses": [
+        "Ben IT destek için buradayım 💻. VPN, Outlook, SAP, yazıcı, OneDrive, Teams ve daha birçok konuda yardımcı olabilirim.",
+        "Yardımcı olabileceğim konular: şifre, VPN, Outlook, yazıcı, SAP, OneDrive, Teams, erişim sorunları. Sadece sorunuzu yazmanız yeterli."
+      ]
+    },
+    {
+  "tag": "sharepoint",
+  "patterns": ["sharepoint dosya yüklenmiyor", "sharepoint açılmıyor", "sharepoint yetki"],
+  "responses": [
+    "SharePoint için:\n1) Tarayıcıda çerezleri ve önbelleği temizleyin.\n2) Kurumsal hesapla oturum açtığınızı kontrol edin.\n3) Dosya adı/uzunluğu ve yol kurallarına uyduğunuzdan emin olun.\nSorun devam ederse IT ile iletişime geçin."
+  ]
+},
+{
+  "tag": "zoom",
+  "patterns": ["zoom açılmıyor", "zoom mikrofon", "zoom kamera", "zoom toplantı giremiyorum"],
+  "responses": [
+    "Zoom sorunları için:\n1) Uygulamayı kapatıp açın, ses/kamera izinlerini kontrol edin.\n2) VPN açık ise kapatmayı deneyin.\n3) Son sürümü yükleyin."
+  ]
+},
+{
+  "tag": "talep_acma",
+  "patterns": [
+    "talep açmak istiyorum",
+    "it'ye talep aç",
+    "sorun bildirmek istiyorum",
+    "destek kaydı aç",
+    "yardım talebi"
+  ],
+  "responses": [
+    "Tabii ki ✅. Talep açma sürecini başlatıyorum. Lütfen talebinizi isminiz ve departmanınız ile beraber buraya yazın."
+  ]
+},
+{
+  "tag": "cimsa_misyon_vizyon",
+  "patterns": ["çimsa misyon", "çimsa vizyon", "misyon vizyon", "çimsa değerleri", "çimsa hedefleri"],
+  "responses": [
+    "🌍 **Misyonumuz**: 50 yıldır toplum, çevre ve ülke ekonomisine değer katıyor; yenilikçi ürünlerimizle hem Türkiye’de hem dünyada geleceği şekillendiriyoruz.\n\n🚀 **Vizyonumuz**: Sektörümüzde öncü konumumuzu ileri taşımak, sürdürülebilirlik ve yeşil dönüşümle geleceğe değer yaratmak."
+  ]
+},
+{
+  "tag": "cimsa_web",
+  "patterns": ["çimsa sitesi", "çimsa internet sitesi", "çimsa web sitesi", "çimsa adresi"],
+  "responses": [
+    "🔗 Çimsa resmi web sitesi: [www.cimsa.com.tr](https://www.cimsa.com.tr)"
+  ]
+},
+{
+  "tag": "cimsa_tarihce",
+  "patterns": ["çimsa ne zaman kuruldu", "çimsa tarihi", "çimsa hakkında bilgi"],
+  "responses": [
+    "📌 Çimsa, 1972 yılında Mersin’de kuruldu. Bugün hem Türkiye’de hem de dünyanın farklı bölgelerinde çimento ve yapı malzemeleri alanında faaliyet gösteriyor."
+  ]
+},
+{
+  "tag": "cimsa_surdurulebilirlik",
+  "patterns": ["çimsa sürdürülebilirlik", "çimsa çevre", "çimsa karbon ayak izi", "çimsa yeşil dönüşüm"],
+  "responses": [
+    "🌱 Çimsa, çevreye duyarlı üretim anlayışıyla karbon ayak izini azaltmayı, enerji verimliliğini artırmayı ve yeşil dönüşüm projeleriyle sürdürülebilir kalkınmaya katkı sağlamayı hedefliyor."
+  ]
+},
+{
+  "tag": "cimsa_it_department",
+  "patterns": ["bilgi teknoloji departmanı nerede", "it departmanı nerede", "bilgi işlem nerede", "it departmanı yeri", "bt departmanı nerede"],
+  "responses": [
+    "💻 Bilgi Teknoloji Departmanı idari binanın zemin katında yer almaktadır."
+  ]
+},
+{
+  "tag": "cimsa_ceo",
+  "patterns": ["çimsa ceo", "çimsa genel müdür", "çimsa yönetim kurulu", "çimsa şirketin başında kim var"],
+  "responses": [
+    "👔 Çimsa’nın CEO’su **Umut Zenar**’dır. Yönetim ekibiyle birlikte şirketin sürdürülebilir büyüme ve yenilikçi stratejilerine liderlik etmektedir."
+  ]
+},
+{
+  "tag": "sabanci_gecmisi",
+  "patterns": ["sabancı geçmişi", "sabancı grubu tarihi", "sabancı hakkında bilgi", "sabancı holding geçmişi"],
+  "responses": [
+    "🏛️ Sabancı Holding, 1967’de kurulmuş olup Türkiye’nin en büyük sanayi ve finans topluluklarından biridir. Enerji, çimento, perakende, finans, dijital ve sanayi gibi birçok sektörde faaliyet göstermektedir. Çimsa da Sabancı Topluluğu’nun bir üyesidir."
+  ]
+}
+
+
+  ]
+}

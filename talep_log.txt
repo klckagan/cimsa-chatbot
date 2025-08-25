@@ -1,0 +1,38 @@
+[2025-08-25 10:38:35] USER: Problemim var talep açmak istiyorum
+[2025-08-25 10:38:35] BOT: [FUZZY 90->talep_acma] Tabii ki ✅. Talep açma sürecini başlatıyorum. Lütfen talebinizi isminiz ve departmanınız ile beraber buraya yazın.
+[2025-08-25 10:38:50] USER: Kağan Kılıç - Bilgi Teknolojileri - Yazıcım bozuldu
+[2025-08-25 10:38:50] BOT: ✅ Teşekkürler, talebiniz kaydedildi ve ilgili ekibe iletilecek.
+
+[2025-08-25 10:39:29] USER: Merhaba ben Kağan sap giremiyorum
+[2025-08-25 10:39:29] BOT: [RULE->sap] SAP giriş sorunları için:
+1. Kullanıcı adınızı ve şifrenizi doğru girdiğinizden emin olun.
+2. SAP Client sürümünüz güncel olmalı.
+3. Şifreniz kilitlendiyse IT destek ekibine bildirin.
+[2025-08-25 10:39:37] USER: Teşekkürler sorunum çözüldü :)
+[2025-08-25 10:39:37] BOT: [FUZZY 90->tesekkur] Sorun değil, memnuniyetle.
+[2025-08-25 10:39:43] USER: Hoşçakal
+[2025-08-25 10:39:43] BOT: [FUZZY 94->vedalaşma] Hoşça kalın, kendinize iyi bakın 😊
+[2025-08-25 10:49:23] USER: vpn
+[2025-08-25 10:49:23] BOT: [RULE->vpn] VPN bağlantı sorunları için lütfen şunları kontrol edin:
+1. İnternet bağlantınızın olduğundan emin olun.
+2. VPN programında kullanıcı adı ve şifrenizi doğru girdiğinizden emin olun.
+3. VPN programını kapatıp yeniden açmayı veya bilgisayarınızı yeniden başlatmayı deneyin.
+Sorun devam ederse, şifrenizin süresi dolmuş olabilir. Lütfen IT ile iletişime geçin.
+[2025-08-25 10:49:24] USER: bağla
+[2025-08-25 10:49:24] BOT: [FUZZY 90->vpn] VPN bağlantı sorunları için lütfen şunları kontrol edin:
+1. İnternet bağlantınızın olduğundan emin olun.
+2. VPN programında kullanıcı adı ve şifrenizi doğru girdiğinizden emin olun.
+3. VPN programını kapatıp yeniden açmayı veya bilgisayarınızı yeniden başlatmayı deneyin.
+Sorun devam ederse, şifrenizin süresi dolmuş olabilir. Lütfen IT ile iletişime geçin.
+[2025-08-25 10:49:26] USER: bağlanmıyor
+[2025-08-25 10:49:26] BOT: [FUZZY 95->vpn] VPN bağlantı sorunları için lütfen şunları kontrol edin:
+1. İnternet bağlantınızın olduğundan emin olun.
+2. VPN programında kullanıcı adı ve şifrenizi doğru girdiğinizden emin olun.
+3. VPN programını kapatıp yeniden açmayı veya bilgisayarınızı yeniden başlatmayı deneyin.
+Sorun devam ederse, şifrenizin süresi dolmuş olabilir. Lütfen IT ile iletişime geçin.
+[2025-08-25 10:49:29] USER: internet bağlanmıyor
+[2025-08-25 10:49:29] BOT: [FUZZY 86->internet] İnternet bağlantısı için:
+1. Wi-Fi/Ethernet bağlantınızın aktif olduğunu doğrulayın.
+2. Modem/AP ışıklarını ve kapsama alanını kontrol edin.
+3. Gerekirse cihazı yeniden başlatın.
+Sorun sürerse IT ile iletişime geçin (genel kesinti olabilir).
